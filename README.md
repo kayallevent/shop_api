@@ -1,24 +1,23 @@
-# Shop API (Spring Boot + PostgreSQL)
+# 🛒 Shop API
 
-Basit e-ticaret backend API’si. Java 17, Spring Boot 3, JPA, PostgreSQL.
+Spring Boot + PostgreSQL kullanılarak geliştirilmiş basit bir **E-Ticaret Backend** uygulaması.  
+Proje, ürün ve kullanıcı yönetimi için CRUD işlemleri, DTO yapıları, global exception handling ve integration testleri içerir.
 
-## Özellikler
-- Users: CRUD (basit)
-- Products: CRUD + Validation + Exception Handling
-- GlobalExceptionHandler
-- (Test) JUnit + veya Testcontainers
+---
 
-## Gereksinimler
+## 🚀 Teknolojiler
+
 - Java 17
-- PostgreSQL (local: 5432, db: `shop_api`)
+- Spring Boot (Web, JPA, Validation)
+- PostgreSQL
+- Testcontainers (Integration Test için)
 - Maven
 
-### Endpointler
-- `GET /api/products`
-- `POST /api/products`
-- `GET /api/products/{id}`
-- `PUT /api/products/{id}`
-- `DELETE /api/products/{id}`
+---
 
-## Test
-mvn test
+## ⚙️ Kurulum
+
+### 1. Depoyu Klonla
+```bash
+git clone https://github.com/<kullanıcı_adın>/shop-api.git
+cd shop-api
